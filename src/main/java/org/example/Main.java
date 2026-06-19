@@ -11,7 +11,9 @@ public class Main {
         //System.out.println(new Primitivos());
 
         //new Primitivos().descripcionDouble();
-        new PrimitivosCaracteres().descripcionChar();
+        //new PrimitivosBoolean().descripcionBoolean();
+
+        new SistemasNumericos().descripcionSistemas();
 
     }
 }

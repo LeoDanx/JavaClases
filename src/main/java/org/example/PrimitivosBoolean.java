@@ -1,8 +1,10 @@
+package org.example;
+
 public class PrimitivosBoolean {
 
     public void descripcionBoolean(){
 
-        boolean datoLogico=false;
+        boolean datoLogico=true;
         boolean datoTipoBoolean=Boolean.FALSE;
         
         System.out.println("datoLogico = " + datoLogico);
@@ -12,6 +14,10 @@ public class PrimitivosBoolean {
         float f = 1.2345e2f;
 
         datoLogico= d>f;
+        System.out.println("datoLogico = " + datoLogico);
+        
+        boolean esIgual=3-2==1;
+        System.out.println("esIgual = " + esIgual);
 
 
     }
