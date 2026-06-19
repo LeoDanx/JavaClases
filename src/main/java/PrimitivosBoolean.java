@@ -14,6 +14,5 @@ public class PrimitivosBoolean {
         datoLogico= d>f;
 
 
-
     }
 }
