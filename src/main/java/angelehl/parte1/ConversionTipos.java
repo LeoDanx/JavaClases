@@ -1,4 +1,4 @@
-package angelehl.principal;
+package angelehl.parte1;
 
 public class ConversionTipos {
 

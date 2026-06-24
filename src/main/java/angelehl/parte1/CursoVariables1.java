@@ -1,4 +1,4 @@
-package angelehl.principal;
+package angelehl.parte1;
 
 public class CursoVariables1 {
     //La declaración de variables siempre consta de dos partes: El tipo de dato y la variable.
