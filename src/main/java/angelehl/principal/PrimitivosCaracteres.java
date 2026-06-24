@@ -1,4 +1,4 @@
-package org.example;
+package angelehl.principal;
 
 public class PrimitivosCaracteres {
 
