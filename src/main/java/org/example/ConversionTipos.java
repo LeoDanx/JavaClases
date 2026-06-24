@@ -53,5 +53,18 @@ public class ConversionTipos {
 
     public void operacionesPrimitivoAPrimitivo(){
 
+        //Solo se hace cast a tipo numérico
+        //Char tambien puede, pero el valor resultado es un Unicode
+
+        int i=32768;
+        short s = (short)i;//MalaPráctica:  no convertir de tipos de mayor bits a menor bits
+        System.out.println("s = " + s);
+        long l = i;
+        System.out.println("l = " + l);
+        char b = (char)i;
+        System.out.println("b = " + b);
+        float f = (float)i;
+        System.out.println("f = " + f);
+
     }
 }

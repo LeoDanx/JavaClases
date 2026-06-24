@@ -16,7 +16,7 @@ public class Main {
         //new SistemasNumericos().descripcionSistemas();
         //new SistemasNumericos().convertir();
         //new SistemasNumericosEntradaScanner().convertir();
-        new ConversionTipos().operacionesInverso();
+        new ConversionTipos().operacionesPrimitivoAPrimitivo();
 
     }
 }
