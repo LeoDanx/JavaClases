@@ -13,7 +13,10 @@ public class Main {
         //new Primitivos().descripcionDouble();
         //new PrimitivosBoolean().descripcionBoolean();
 
-        new SistemasNumericos().descripcionSistemas();
+        //new SistemasNumericos().descripcionSistemas();
+        //new SistemasNumericos().convertir();
+        //new SistemasNumericosEntradaScanner().convertir();
+        new ConversionTipos().operacionesInverso();
 
     }
 }

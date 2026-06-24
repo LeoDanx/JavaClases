@@ -1,8 +1,10 @@
 package org.example;
 
 import javax.swing.*;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
-public class SistemasNumericos {
+public class SistemasNumericosEntradaScanner {
 
     public void descripcionSistemas(){
 
@@ -36,15 +38,17 @@ public class SistemasNumericos {
 
     public void convertir(){
 
-        String  numeroStr = JOptionPane.showInputDialog(null,"Ingrese un número entero");
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Ingrese un número entero: ");
+        //String numeroStr = scanner.nextLine();
+
         int numeroDecimal =0;
 
         try{
-            numeroDecimal =Integer.parseInt(numeroStr);
+            numeroDecimal =scanner.nextInt();
 
-        }catch(NumberFormatException e){
-
-            JOptionPane.showMessageDialog(null,"Error: debe ingresar un número entero");
+        }catch(Exception e){
+            System.out.println("Error: debe ingresar un número entero");
             convertir();
             System.exit(0);
         }
@@ -53,32 +57,19 @@ public class SistemasNumericos {
         System.out.println("numeroDecimal = " + numeroDecimal);
 
         String mensajeBinario = "Equivalente en binario de " + numeroDecimal+" = " + Integer.toBinaryString(numeroDecimal);
-        System.out.println(mensajeBinario);
-
-        //De binario a decimal
-        int numeroBinario = 0b11110;//Con 0b se sabe que es binario en java
-        System.out.println("numeroBinario = " + numeroBinario);
 
         //De decimal a octal
         String mensajeOctal = "Numero octal de "+numeroDecimal+" es = " +Integer.toOctalString(numeroDecimal);
-        System.out.println(mensajeOctal);
-
-        //De octal a decimal
-        int numeroOctal=036;//Para que java reconozca un octal, se antepone un cero
-        System.out.println("numeroOctal = " + numeroOctal);
 
         //De decimal a hexadecimal
         String mensajeHexadecimal="Numero hexadecimal de " + numeroDecimal+ " = " + Integer.toHexString(numeroDecimal);
-        System.out.println(mensajeHexadecimal);
 
-        int numeroHex = 0x1e;//0x para saber que es hexadecimal
-        System.out.println("numeroHex = " + numeroHex);
 
         String mensaje = mensajeBinario;
         mensaje += "\n"+mensajeOctal;
         mensaje += "\n"+mensajeHexadecimal;
 
 
-        JOptionPane.showMessageDialog(null, mensaje);
+        System.out.println(mensaje);
     }
 }
