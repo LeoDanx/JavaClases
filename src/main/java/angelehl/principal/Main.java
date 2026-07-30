@@ -2,13 +2,14 @@ package angelehl.principal;
 
 import angelehl.actividades.DetalleFactura.DetalleFactura;
 import angelehl.parte1.*;
+import angelehl.parte2.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        new Main().ejercicio1();
+        new Main().parte2();
 
 
     }
@@ -19,6 +20,12 @@ public class Main {
         df.obtenerPrecioTotal();
         System.out.println(df);
 
+    }
+
+    public void parte2(){
+
+            //new EjemploString().descripcionString();
+        new EjemploStringConcatenacion().descripcionString();
     }
 
     public void parte1(){
