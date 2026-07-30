@@ -21,6 +21,8 @@ public class EjemploStringConcatenacion {
         System.out.println("detalle2: " + detalle2);
         String detalle3 = curso.concat(" con ".concat(profesor));//Esta forma de concatenar es mas eficiente que con +
         System.out.println("detalle3: " + detalle3);
+
+
     }
 
 

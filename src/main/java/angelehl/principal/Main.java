@@ -13,7 +13,7 @@ public class Main {
 
 
     }
-    public void ejercicio1(){
+    private void ejercicio1(){
         DetalleFactura df = new DetalleFactura();
 
         df.obtenerDescripcion();
@@ -22,13 +22,15 @@ public class Main {
 
     }
 
-    public void parte2(){
+    private void parte2(){
 
-            //new EjemploString().descripcionString();
-        new EjemploStringConcatenacion().descripcionString();
+        //new EjemploString().descripcionString();
+        //new EjemploStringConcatenacion().descripcionString();
+        //new EjemploStringTestRendimientoConcat().descripcionString();
+        new EjemploStringValidar().cuerpoStringValidar();
     }
 
-    public void parte1(){
+     private void parte1(){
         //new CursoVariables1().asinarVariables();
 
         //Valores por defecto
