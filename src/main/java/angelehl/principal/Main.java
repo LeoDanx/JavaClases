@@ -27,7 +27,9 @@ public class Main {
         //new EjemploString().descripcionString();
         //new EjemploStringConcatenacion().descripcionString();
         //new EjemploStringTestRendimientoConcat().descripcionString();
-        new EjemploStringValidar().cuerpoStringValidar();
+        //new EjemploStringValidar().cuerpoStringValidar();
+        //new EjemploStringMetodos().cuerpoStringMetodos2();
+        new EjemploStringMetodosArreglo().cuerpoStringMetodosArreglo();
     }
 
      private void parte1(){
