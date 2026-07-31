@@ -1,6 +1,7 @@
 package angelehl.principal;
 
 import angelehl.actividades.DetalleFactura.DetalleFactura;
+import angelehl.actividades.DetalleFactura.ProgramaManejoDeNombres;
 import angelehl.parte1.*;
 import angelehl.parte2.*;
 
@@ -29,7 +30,8 @@ public class Main {
         //new EjemploStringTestRendimientoConcat().descripcionString();
         //new EjemploStringValidar().cuerpoStringValidar();
         //new EjemploStringMetodos().cuerpoStringMetodos2();
-        new EjemploStringMetodosArreglo().cuerpoStringMetodosArreglo();
+        //new EjemploStringMetodosArreglo().cuerpoStringMetodosArreglo();
+        new ProgramaManejoDeNombres().cuerpoProgramaManejoDeNombres();
     }
 
      private void parte1(){
