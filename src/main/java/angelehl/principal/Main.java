@@ -1,6 +1,6 @@
 package angelehl.principal;
 
-import angelehl.actividades.DetalleFactura;
+import angelehl.actividades.*;
 import angelehl.parte1.*;
 import angelehl.parte2.*;
 import angelehl.parte3.*;
