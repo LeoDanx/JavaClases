@@ -3,13 +3,14 @@ package angelehl.principal;
 import angelehl.actividades.DetalleFactura.DetalleFactura;
 import angelehl.parte1.*;
 import angelehl.parte2.*;
+import angelehl.parte3.OperadoresUnarios;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        new Main().parte2();
+        new Main().parte3();
 
 
     }
@@ -20,6 +21,13 @@ public class Main {
         df.obtenerPrecioTotal();
         System.out.println(df);
 
+    }
+
+    private void parte3(){
+
+        //new OperadoresAritmetico().cuerpoOperadorAritmetico();
+        //new OperadoresAsignacion().cuerpoOperadorAsignacion();
+        new OperadoresUnarios().cuerpoOperadorUnarios();
     }
 
     private void parte2(){
