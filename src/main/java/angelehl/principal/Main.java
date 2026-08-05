@@ -3,6 +3,9 @@ package angelehl.principal;
 import angelehl.actividades.DetalleFactura.DetalleFactura;
 import angelehl.parte1.*;
 import angelehl.parte2.*;
+import angelehl.parte3.OperadoresIncrementales;
+import angelehl.parte3.OperadoresLogicos;
+import angelehl.parte3.OperadoresRelacionales;
 import angelehl.parte3.OperadoresUnarios;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -27,7 +30,10 @@ public class Main {
 
         //new OperadoresAritmetico().cuerpoOperadorAritmetico();
         //new OperadoresAsignacion().cuerpoOperadorAsignacion();
-        new OperadoresUnarios().cuerpoOperadorUnarios();
+        //new OperadoresUnarios().cuerpoOperadorUnarios();
+        //new OperadoresUnarios().cuerpoOperadorUnarios();
+        //new OperadoresIncrementales().cuerpoOperadoresIncrementales();
+        new OperadoresLogicos().cuerpoOperadoresRelacionales();
     }
 
     private void parte2(){
