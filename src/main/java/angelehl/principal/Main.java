@@ -2,6 +2,8 @@ package angelehl.principal;
 
 import angelehl.actividades.*;
 import angelehl.parte1.*;
+import angelehl.parte2.*;
+import angelehl.parte3.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -22,8 +24,15 @@ public class Main {
     }
 
     private void parte3(){
-        new OperadoresLogicosLogin().cuerpoOperadoresLogicosLogin();
 
+        //new OperadoresAritmetico().cuerpoOperadorAritmetico();
+        //new OperadoresAsignacion().cuerpoOperadorAsignacion();
+        //new OperadoresUnarios().cuerpoOperadorUnarios();
+        //new OperadoresUnarios().cuerpoOperadorUnarios();
+        //new OperadoresIncrementales().cuerpoOperadoresIncrementales();
+        //new OperadoresLogicos().cuerpoOperadoresRelacionales();
+        //new OperadoresLogicosLogin().cuerpoOperadoresLogicosLogin();
+        new OperadoresTernarios().cuerpoOperadoresTernarios();
     }
 
     private void parte2(){
@@ -33,8 +42,7 @@ public class Main {
         //new EjemploStringTestRendimientoConcat().descripcionString();
         //new EjemploStringValidar().cuerpoStringValidar();
         //new EjemploStringMetodos().cuerpoStringMetodos2();
-        //new EjemploStringMetodosArreglo().cuerpoStringMetodosArreglo();
-        new ProgramaManejoDeNombres().cuerpoProgramaManejoDeNombres();
+        new EjemploStringMetodosArreglo().cuerpoStringMetodosArreglo();
     }
 
      private void parte1(){
