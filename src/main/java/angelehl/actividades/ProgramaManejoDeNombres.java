@@ -1,4 +1,4 @@
-package angelehl.actividades.DetalleFactura;
+package angelehl.actividades;
 
 import java.util.Scanner;
 

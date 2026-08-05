@@ -1,9 +1,8 @@
 package angelehl.principal;
 
-import angelehl.actividades.DetalleFactura.DetalleFactura;
-import angelehl.actividades.DetalleFactura.ProgramaManejoDeNombres;
+import angelehl.actividades.DetalleFactura;
+import angelehl.actividades.ProgramaManejoDeNombres;
 import angelehl.parte1.*;
-import angelehl.parte2.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -20,6 +19,11 @@ public class Main {
         df.obtenerDescripcion();
         df.obtenerPrecioTotal();
         System.out.println(df);
+
+    }
+
+    private void parte3(){
+
 
     }
 
