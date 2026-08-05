@@ -1,7 +1,6 @@
 package angelehl.principal;
 
-import angelehl.actividades.DetalleFactura;
-import angelehl.actividades.ProgramaManejoDeNombres;
+import angelehl.actividades.*;
 import angelehl.parte1.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -9,7 +8,7 @@ import angelehl.parte1.*;
 public class Main {
     public static void main(String[] args) {
 
-        new Main().parte2();
+        new Main().parte3();
 
 
     }
@@ -23,7 +22,7 @@ public class Main {
     }
 
     private void parte3(){
-
+        new OperadoresLogicosLogin().cuerpoOperadoresLogicosLogin();
 
     }
 

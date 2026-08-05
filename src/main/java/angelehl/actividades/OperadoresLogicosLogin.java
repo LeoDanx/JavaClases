@@ -6,8 +6,20 @@ public class OperadoresLogicosLogin {
 
     public void cuerpoOperadoresLogicosLogin(){
 
-        String username = "angel";
-        String password = "12345";
+
+        /*String[] username = new String[3];
+        String[] password = new String[3];
+        username[0] = "angel";
+        password[0] = "12345";
+
+        username[1] = "Lorena";
+        password[1] = "12468";
+
+        username[2] = "Carlos";
+        password[2] = "24689";*/
+
+        String[] username = {"angel","lorena","pepe"};
+        String[] password = {"12345","12468","24689"};
 
         Scanner sc = new Scanner(System.in);
 
@@ -20,10 +32,15 @@ public class OperadoresLogicosLogin {
 
         boolean esAutenticado = false;
 
-        if(username.equals(usuario) &&  pass.equals(pass)){
+        for(int i = 0; i < username.length; i++){
 
-            esAutenticado = true;
+            if(username[i].equals(usuario) &&  password[i].equals(pass)){
+
+                esAutenticado = true;
+                break;
+            }
         }
+
 
         if(esAutenticado){
             System.out.println("Bienvenido usuario ".concat("¡").concat(usuario).concat("!"));
