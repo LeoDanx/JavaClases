@@ -34,7 +34,8 @@ public class Main {
         //new OperadoresTernarios().cuerpoOperadoresTernarios();
         //new OperadorInstaceOf().cuerpoOperadorInstaceOf();
         //new OperadorInstaceOfTiposGenericos().cuerpoOperadorInstaceOf();
-        new PrecedenciaOperadores().cuerpoPrecedenciaOperadores();
+        //new PrecedenciaOperadores().cuerpoPrecedenciaOperadores();
+        new nombreMasLargo().cuerpoNombreMasLargo();
     }
 
     private void parte2(){
