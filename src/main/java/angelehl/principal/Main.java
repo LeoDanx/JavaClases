@@ -31,8 +31,11 @@ public class Main {
         //new OperadoresUnarios().cuerpoOperadorUnarios();
         //new OperadoresIncrementales().cuerpoOperadoresIncrementales();
         //new OperadoresLogicos().cuerpoOperadoresRelacionales();
-        //new OperadoresLogicosLogin().cuerpoOperadoresLogicosLogin();
-        new OperadoresTernarios().cuerpoOperadoresTernarios();
+        //new OperadoresTernarios().cuerpoOperadoresTernarios();
+        //new OperadorInstaceOf().cuerpoOperadorInstaceOf();
+        //new OperadorInstaceOfTiposGenericos().cuerpoOperadorInstaceOf();
+        //new PrecedenciaOperadores().cuerpoPrecedenciaOperadores();
+        new nombreMasLargo().cuerpoNombreMasLargo();
     }
 
     private void parte2(){
