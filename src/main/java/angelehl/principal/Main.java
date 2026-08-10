@@ -4,13 +4,14 @@ import angelehl.actividades.*;
 import angelehl.parte1.*;
 import angelehl.parte2.*;
 import angelehl.parte3.*;
+import angelehl.parte4.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        new Main().parte3();
+        new Main().parte4();
 
 
     }
@@ -20,6 +21,16 @@ public class Main {
         df.obtenerDescripcion();
         df.obtenerPrecioTotal();
         System.out.println(df);
+
+    }
+
+    private void parte4(){
+
+        //new SentenciaIfElse().cuerpoSentenciaIfElse();
+        //new SentenciaIfElseNumDiasMes().cuerpoSentenciaIfElse();
+        //new SentenciaSwitchCase().cuerpoSentenciaSwitchCase();
+        //new SentenciaSwitchCaseNumDiasMes().cuerpoSentenciaIfElse();
+        new SwitchConFlecha().cuerpoSwitchConFlecha();
 
     }
 
