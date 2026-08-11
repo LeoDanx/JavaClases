@@ -30,8 +30,10 @@ public class Main {
         //new SentenciaIfElseNumDiasMes().cuerpoSentenciaIfElse();
         //new SentenciaSwitchCase().cuerpoSentenciaSwitchCase();
         //new SentenciaSwitchCaseNumDiasMes().cuerpoSentenciaIfElse();
-        new SwitchConFlecha().cuerpoSwitchConFlecha();
-
+        //new SwitchConFlecha().cuerpoSwitchConFlecha();
+        //new SentenciaFor().cuerpoSentenciaFor();
+        //new SentenciaForArreglo().cuerpoSentenciaForArreglo();
+        new SentenciaForEach().cuerpoSentenciaForEach();
     }
 
     private void parte3(){
