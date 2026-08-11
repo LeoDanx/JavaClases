@@ -33,7 +33,8 @@ public class Main {
         //new SwitchConFlecha().cuerpoSwitchConFlecha();
         //new SentenciaFor().cuerpoSentenciaFor();
         //new SentenciaForArreglo().cuerpoSentenciaForArreglo();
-        new SentenciaForEach().cuerpoSentenciaForEach();
+        //new SentenciaForEach().cuerpoSentenciaForEach();
+        new SentenciasBucleEtiquetasBuscar().cuerpoSentenciasBucleEtiquetasBuscar();
     }
 
     private void parte3(){
